@@ -7,8 +7,8 @@ import {
   CustomerReviews,
   Subscribe,
   Footer,
+  Nav,
 } from "./Sections";
-import { Nav } from "./Components";
 export default function App() {
   return (
     <main className="relative ">
@@ -23,7 +23,6 @@ export default function App() {
         <SuperQuality />
       </section>
       <section className="padding-x py-10">
-        {" "}
         <Services />
       </section>
       <section className="padding">
@@ -33,7 +32,6 @@ export default function App() {
         <CustomerReviews />
       </section>
       <section className="padding-x sm:py-32 py-16 w-full">
-        {" "}
         <Subscribe />
       </section>
       <section className="bg-black padding-x padding-t pb-8">
