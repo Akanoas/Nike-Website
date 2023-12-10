@@ -13,7 +13,7 @@ export default function App() {
   return (
     <main className="relative ">
       <Nav />
-      <section className="x1:padding-1 wide:padding-r padding-b ">
+      <section className="x1:padding-l wide:padding-r padding-b ">
         <Hero />
       </section>
       <section className="padding">
@@ -26,7 +26,7 @@ export default function App() {
         <Services />
       </section>
       <section className="padding">
-        <SpecialOffer></SpecialOffer>
+        <SpecialOffer />
       </section>
       <section className="bg-pale-blue padding">
         <CustomerReviews />
